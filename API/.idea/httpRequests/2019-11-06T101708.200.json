@@ -1,0 +1,82 @@
+﻿[
+  {
+    "equipmentId": 1,
+    "iconFile": "washer",
+    "equipmentName": "Washing Machine"
+  },
+  {
+    "equipmentId": 2,
+    "iconFile": "safebox",
+    "equipmentName": "Safety deposit box"
+  },
+  {
+    "equipmentId": 3,
+    "iconFile": "breakfast",
+    "equipmentName": "Nespresso"
+  },
+  {
+    "equipmentId": 4,
+    "iconFile": "wine",
+    "equipmentName": "Bar cabinet"
+  },
+  {
+    "equipmentId": 5,
+    "iconFile": "kitchen",
+    "equipmentName": "Fully equipped kitchen"
+  },
+  {
+    "equipmentId": 6,
+    "iconFile": "terrace",
+    "equipmentName": "Covered Terrace"
+  },
+  {
+    "equipmentId": 7,
+    "iconFile": "pool",
+    "equipmentName": "Heated Private Pool"
+  },
+  {
+    "equipmentId": 8,
+    "iconFile": "umbrella",
+    "equipmentName": "Solarium with sun beds"
+  },
+  {
+    "equipmentId": 9,
+    "iconFile": "bathrobe",
+    "equipmentName": "Bathrobe and Slippers"
+  },
+  {
+    "equipmentId": 10,
+    "iconFile": "soap",
+    "equipmentName": "Toiletries"
+  },
+  {
+    "equipmentId": 11,
+    "iconFile": "shower",
+    "equipmentName": "Hydro massage Shower"
+  },
+  {
+    "equipmentId": 12,
+    "iconFile": "tub",
+    "equipmentName": "Bathroom with Bath"
+  },
+  {
+    "equipmentId": 13,
+    "iconFile": "phone",
+    "equipmentName": "Telephone"
+  },
+  {
+    "equipmentId": 14,
+    "iconFile": "music",
+    "equipmentName": "DVD Players"
+  },
+  {
+    "equipmentId": 15,
+    "iconFile": "tv",
+    "equipmentName": "Plasma TVs"
+  },
+  {
+    "equipmentId": 16,
+    "iconFile": "wifi",
+    "equipmentName": "Free Wi-Fi"
+  }
+]

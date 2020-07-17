@@ -1,0 +1,475 @@
+﻿POST https://localhost:5001/customers/sign_in
+Content-Type: application/json
+
+{
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra"
+}
+
+<> 2019-12-14T014655.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+<> 2019-12-14T014652.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+<> 2019-12-14T012124.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "address": {
+    "city": "Bruxelles",
+    "countryId": 1,
+    "lineOne": "Avenue Minerve, 27",
+    "lineTwo": "",
+    "postCode": "1190"
+  },
+  "birthdayDate": "2000-01-01T00:00:00Z",
+  "email": "sandra.cienfuegos@gmail.com",
+  "firstName": "Sandra",
+  "lastName": "Cienfuegos",
+  "password": "scienfuegos",
+  "phoneNumber": "+32470568875",
+  "sex": 2
+}
+
+<> 2019-12-14T011401.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "address": {
+    "city": "Bruxelles",
+    "countryId": 1,
+    "lineOne": "Avenue Minerve, 27",
+    "lineTwo": "",
+    "postCode": "1190"
+  },
+  "birthdayDate": "01/01/2000",
+  "email": "sandra.cienfuegos@gmail.com",
+  "firstName": "Sandra",
+  "lastName": "Cienfuegos",
+  "password": "scienfuegos",
+  "phoneNumber": "+32470568875",
+  "sex": 2
+}
+
+<> 2019-12-14T011306.400.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "address": {
+    "city": "Bruxelles",
+    "country": {
+      "countryId": 1,
+      "countryName": "Belgium"
+    },
+    "countryId": 1,
+    "lineOne": "Avenue Minerve, 27",
+    "lineTwo": "",
+    "postCode": "1190"
+  },
+  "birthdayDate": "01/01/2000",
+  "email": "sandra.cienfuegos@gmail.com",
+  "firstName": "Sandra",
+  "lastName": "Cienfuegos",
+  "password": "scienfuegos",
+  "phoneNumber": "+32470568875",
+  "sex": 2
+}
+
+<> 2019-12-14T011204.400.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/medias
+Accept: application/json
+
+<> 2019-12-14T125228-10.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/formulas
+Accept: application/json
+
+<> 2019-12-14T125228-9.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/equipments
+Accept: application/json
+
+<> 2019-12-14T125228-8.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1
+Accept: application/json
+
+<> 2019-12-14T125228-7.200.json
+
+###
+
+GET https://localhost:5001/fr/villas
+Accept: application/json
+
+<> 2019-12-14T125228-6.200.json
+
+###
+
+GET https://localhost:5001/fr/services/1
+Accept: application/json
+
+<> 2019-12-14T125228-5.200.json
+
+###
+
+GET https://localhost:5001/fr/services
+Accept: application/json
+
+<> 2019-12-14T125228-4.200.json
+
+###
+
+GET https://localhost:5001/fr/extras/1
+Accept: application/json
+
+<> 2019-12-14T125228-3.200.json
+
+###
+
+GET https://localhost:5001/fr/extras
+Accept: application/json
+
+<> 2019-12-14T125228-2.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_in
+Content-Type: application/json
+
+{
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra"
+}
+
+<> 2019-12-14T125228-1.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+<> 2019-12-14T125228.200.json
+
+###
+
+GET https://localhost:5001/fr/extras/1
+Accept: application/json
+
+###
+
+GET https://localhost:5001/fr/extras
+Accept: application/json
+
+###
+
+POST https://localhost:5001/customers/sign_in
+Content-Type: application/json
+
+{
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra"
+}
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+###
+
+GET https://localhost:5001/fr/villas/1/medias
+Accept: application/json
+
+<> 2019-12-14T125114-4.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/formulas
+Accept: application/json
+
+<> 2019-12-14T125114-3.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/equipments
+Accept: application/json
+
+<> 2019-12-14T125114-2.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1
+Accept: application/json
+
+<> 2019-12-14T125114-1.200.json
+
+###
+
+GET https://localhost:5001/fr/villas
+Accept: application/json
+
+<> 2019-12-14T125114.200.json
+
+###
+
+GET https://localhost:5001/fr/services/1
+Accept: application/json
+
+<> 2019-12-14T125113-4.200.json
+
+###
+
+GET https://localhost:5001/fr/services
+Accept: application/json
+
+<> 2019-12-14T125113-3.200.json
+
+###
+
+GET https://localhost:5001/fr/extras/1
+Accept: application/json
+
+<> 2019-12-14T125113-2.200.json
+
+###
+
+GET https://localhost:5001/fr/extras
+Accept: application/json
+
+<> 2019-12-14T125113-1.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_in
+Content-Type: application/json
+
+{
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra"
+}
+
+<> 2019-12-14T125113.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+<> 2019-12-14T125113.400.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/medias
+Accept: application/json
+
+<> 2019-12-14T124813.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/formulas
+Accept: application/json
+
+<> 2019-12-14T124812-9.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1/equipments
+Accept: application/json
+
+<> 2019-12-14T124812-8.200.json
+
+###
+
+GET https://localhost:5001/fr/villas/1
+Accept: application/json
+
+<> 2019-12-14T124812-7.200.json
+
+###
+
+GET https://localhost:5001/fr/villas
+Accept: application/json
+
+<> 2019-12-14T124812-6.200.json
+
+###
+
+GET https://localhost:5001/fr/services/1
+Accept: application/json
+
+<> 2019-12-14T124812-5.200.json
+
+###
+
+GET https://localhost:5001/fr/services
+Accept: application/json
+
+<> 2019-12-14T124812-4.200.json
+
+###
+
+GET https://localhost:5001/fr/extras/1
+Accept: application/json
+
+<> 2019-12-14T124812-3.200.json
+
+###
+
+GET https://localhost:5001/fr/extras
+Accept: application/json
+
+<> 2019-12-14T124812-2.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_in
+Content-Type: application/json
+
+{
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra"
+}
+
+<> 2019-12-14T124812-1.200.json
+
+###
+
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+<> 2019-12-14T124812.200.json
+
+###
+

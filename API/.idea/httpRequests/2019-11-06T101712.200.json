@@ -1,0 +1,38 @@
+﻿[
+  {
+    "formula": {
+      "formulaId": 1,
+      "formulaName": "Accommodation with Breakfast"
+    },
+    "priceAdult": 50,
+    "priceChild": 25,
+    "priceBaby": 0
+  },
+  {
+    "formula": {
+      "formulaId": 2,
+      "formulaName": "Half board"
+    },
+    "priceAdult": 100,
+    "priceChild": 50,
+    "priceBaby": 0
+  },
+  {
+    "formula": {
+      "formulaId": 3,
+      "formulaName": "Full board"
+    },
+    "priceAdult": 150,
+    "priceChild": 75,
+    "priceBaby": 0
+  },
+  {
+    "formula": {
+      "formulaId": 4,
+      "formulaName": "All-inclusive"
+    },
+    "priceAdult": 200,
+    "priceChild": 100,
+    "priceBaby": 0
+  }
+]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in">Conexión</string>
+    <string name="to_sign_in">Conectarse</string>
+    <string name="password">Contraseña</string>
+    <string name="email">E-mail</string>
+    <string name="sign_up">Registro</string>
+    <string name="to_sign_up">Registrarse</string>
+    <string name="last_name">Apellido</string>
+    <string name="first_name">Nombre</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="birthday_date">Fecha de nacimiento</string>
+    <string name="address_line_one">Dirección 1</string>
+    <string name="address_line_two">Dirección  2</string>
+    <string name="city">Cuidad</string>
+    <string name="postal_code">Código postal</string>
+    <string name="villas">Villas</string>
+    <string name="beds">camas</string>
+    <string name="square_metre">m²</string>
+    <string name="persons">personas</string>
+    <string name="equipments">Equipamientos</string>
+    <string name="reservation">Reservación</string>
+    <string name="number_of_adults">Número de adultos</string>
+    <string name="number_of_children">Número de niños</string>
+    <string name="number_of_babies">Número de bebés</string>
+    <string name="book">Reservar</string>
+    <string name="app_name">Royal Garden Villas</string>
+    <string name="hello_message">Hola %s</string>
+    <string name="not_empty_value">Los datos no pueden estar vacíos.</string>
+    <string name="welcome_message">Bienvenida %s</string>
+    <string name="services">Servicios</string>
+    <string name="extras">Extras</string>
+</resources>

@@ -1,0 +1,188 @@
+base-url = https://www.hotel-villas/{culture}
+
+base-url/villas
+-> Retourne toutes les villas
+
+base-url/villas/{id}
+-> Retourne la villa possédant l'id {id}, si elle existe
+
+base-url/villas/{id}/equipments
+-> Retourne les équipements de la villa possédant l'id {id}, si elle existe
+
+base-url/villas/{id}/formulas
+-> Retourne les formules de la villa possédant l'id {id}, si elle existe
+
+base-url/villas/{id}/medias
+-> Retourne les médias de la villa possédant l'id {id}, si elle existe
+
+base-url/villas/{id}/reservations
+-> Retourne les médias de la villa possédant l'id {id}, si elle existe
+
+using System.Collections.Generic;
+using System.Linq;
+using API.Domain.Models;
+using API.Persistence.Contexts;
+using API.Resources;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace API.Controllers
+{
+    [CultureRoute("villas")]
+    public class TestController : CultureController
+    {
+        private readonly IMapper mapper;
+        private readonly AppDbContext appDbContext;
+
+        public TestController(IMapper mapper, AppDbContext appDbContext)
+        {
+            this.mapper = mapper;
+            this.appDbContext = appDbContext;
+        }
+
+        [HttpGet]
+        public IEnumerable<VillaResource> VillasList()
+        {
+            var villas = appDbContext
+                .Villas
+                .Include(x => x.Languages)
+                .ThenInclude(x => x.Language)
+                .Include(x => x.Medias)
+                .Select(x => new Villa
+                {
+                    VillaId = x.VillaId,
+                    VillaName = x.VillaName,
+                    VillaPath = x.VillaPath,
+                    NumberOfBeds = x.NumberOfBeds,
+                    SurfaceArea = x.SurfaceArea,
+                    PriceOnline = x.PriceOnline,
+                    PriceOnSite = x.PriceOnSite,
+                    Description = x.Languages.Single(l => l.Language.IsoCode == Language.ToUpper()).Description,
+                    Medias = x.Medias.ToList(),
+                })
+                .ToList();
+
+            return mapper.Map<IEnumerable<Villa>, IEnumerable<VillaResource>>(villas);
+        }
+
+        [HttpGet("{id}")]
+        public VillaResource Villa(int id)
+        {
+            var villa = appDbContext
+                .Villas
+                .Include(x => x.Languages)
+                .ThenInclude(x => x.Language)
+                .Include(x => x.Medias)
+                .Select(x => new Villa
+                {
+                    VillaId = x.VillaId,
+                    VillaName = x.VillaName,
+                    VillaPath = x.VillaPath,
+                    NumberOfBeds = x.NumberOfBeds,
+                    SurfaceArea = x.SurfaceArea,
+                    PriceOnline = x.PriceOnline,
+                    PriceOnSite = x.PriceOnSite,
+                    Description = x.Languages.Single(l => l.Language.IsoCode == Language.ToUpper()).Description,
+                    Medias = x.Medias.ToList(),
+                })
+                .SingleOrDefault(x => x.VillaId == id);
+
+            return mapper.Map<Villa, VillaResource>(villa);
+        }
+
+        [HttpGet("{id}/equipments")]
+        public IEnumerable<EquipmentResource> VillasEquipments(int id)
+        {
+            var equipments = appDbContext
+                .VillaEquipments
+                .Include(x => x.Equipment)
+                .ThenInclude(x => x.EquipmentLanguages)
+                .Where(x => x.VillaId == id)
+                .Select(x => new Equipment
+                {
+                    EquipmentId = x.EquipmentId,
+                    IconFile = x.Equipment.IconFile,
+                    EquipmentName = x
+                        .Equipment
+                        .EquipmentLanguages.Single(l => l.Language.IsoCode == Language.ToUpper())
+                        .EquipmentName,
+                })
+                .ToList();
+
+            return mapper.Map<IEnumerable<Equipment>, IEnumerable<EquipmentResource>>(equipments);
+        }
+
+        [HttpGet("{id}/formulas")]
+        public IEnumerable<VillaFormulaResource> VillasFormulas(int id)
+        {
+            var villasFormulas = appDbContext
+                .VillaFormulas
+                .Include(x => x.Formula)
+                .ThenInclude(x => x.FormulaLanguages)
+                .Where(x => x.VillaId == id)
+                .Select(x => new VillaFormula
+                {
+                    VillaId = x.VillaId,
+                    FormulaId = x.FormulaId,
+                    Formula = new Formula
+                    {
+                        FormulaId = x.Formula.FormulaId,
+                        FormulaName = x
+                            .Formula
+                            .FormulaLanguages.Single(l => l.Language.IsoCode == Language.ToUpper())
+                            .FormulaName,
+                    },
+                    PriceAdult = x.PriceAdult,
+                    PriceChild = x.PriceChild,
+                    PriceBaby = x.PriceBaby,
+                })
+                .ToList();
+
+            return mapper.Map<IEnumerable<VillaFormula>, IEnumerable<VillaFormulaResource>>(villasFormulas);
+        }
+
+        [HttpGet("{id}/medias")]
+        public IEnumerable<VillaMediaResource> VillasMedias(int id)
+        {
+            var villasMedias = appDbContext
+                .VillaMedias
+                .Where(x => x.VillaId == id)
+                .Select(x => new VillaMedia
+                {
+                    MediaId = x.MediaId,
+                    VillaId = x.VillaId,
+                    MediaName = x.MediaName,
+                })
+                .ToList();
+
+            return mapper.Map<IEnumerable<VillaMedia>, IEnumerable<VillaMediaResource>>(villasMedias);
+        }
+
+        [HttpGet("{id}/reservations")]
+        public IEnumerable<ReservationResource> VillasReservations(int id)
+        {
+            var reservations = appDbContext
+                .Reservations
+                .Where(x => x.VillaId == id)
+                .Select(x => new Reservation
+                {
+                    ReservationId = x.ReservationId,
+                    CustomerId = x.CustomerId,
+                    VillaId = x.VillaId,
+                    FormulaId = x.FormulaId,
+                    NumberAdults = x.NumberAdults,
+                    NumberChildren = x.NumberChildren,
+                    NumberBabies = x.NumberBabies,
+                    ReservationDate = x.ReservationDate,
+                    ReservationPrice = x.ReservationPrice,
+                    PriceChoice = x.PriceChoice,
+                    CheckInDate = x.CheckInDate,
+                    CheckOutDate = x.CheckOutDate,
+                })
+                .ToList();
+
+            return mapper.Map<IEnumerable<Reservation>, IEnumerable<ReservationResource>>(reservations);
+        }
+    }
+}

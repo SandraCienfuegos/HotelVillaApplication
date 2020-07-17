@@ -1,0 +1,14 @@
+{
+  "data": {
+    "customerId": 1,
+    "firstName": "Sandra",
+    "lastName": "Cienfuegos Bot",
+    "email": "sandra.cienfuegos@helb-prigogine.be",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1NzQxNjMxNDYsImV4cCI6MjQzODA3Njc0NiwiaWF0IjoxNTc0MTYzMTQ2fQ.piX8OHUWdnwdn8z4COrAD99OXAqQMJZ_ByU1furnCSs"
+  },
+  "status": {
+    "timestamp": "2019-11-19T12:32:26.3686844+01:00",
+    "errorCode": 0,
+    "errorMessage": null
+  }
+}

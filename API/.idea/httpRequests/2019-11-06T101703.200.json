@@ -1,0 +1,52 @@
+﻿{
+  "villaId": 1,
+  "villaName": "Gran Princess Villa",
+  "villaPath": "gran-princess-villa",
+  "numberOfBeds": 2,
+  "surfaceArea": 233,
+  "priceOnline": 629,
+  "priceOnSite": 679,
+  "description": "Treat you and your family/friends to an upgrade and enjoy even more space in one of our Gran Princess villas. Your lavish retreat provides everything you could possible need for an extraordinary luxury break in Tenerife, including an airy terrace with ocean views and a heated private pool.",
+  "medias": [
+    {
+      "mediaId": 2,
+      "mediaName": "gran-princess-villa-0"
+    },
+    {
+      "mediaId": 3,
+      "mediaName": "gran-princess-villa-1"
+    },
+    {
+      "mediaId": 4,
+      "mediaName": "gran-princess-villa-2"
+    },
+    {
+      "mediaId": 5,
+      "mediaName": "gran-princess-villa-3"
+    },
+    {
+      "mediaId": 6,
+      "mediaName": "gran-princess-villa-4"
+    },
+    {
+      "mediaId": 7,
+      "mediaName": "gran-princess-villa-5"
+    },
+    {
+      "mediaId": 8,
+      "mediaName": "gran-princess-villa-6"
+    },
+    {
+      "mediaId": 9,
+      "mediaName": "gran-princess-villa-7"
+    },
+    {
+      "mediaId": 10,
+      "mediaName": "gran-princess-villa-8"
+    },
+    {
+      "mediaId": 11,
+      "mediaName": "gran-princess-villa-9"
+    }
+  ]
+}

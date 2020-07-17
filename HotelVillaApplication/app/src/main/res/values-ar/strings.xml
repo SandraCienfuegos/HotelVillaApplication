@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="to_sign_in">لتسجيل الدخول</string>
+    <string name="password">كلمه السر</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="sign_up">سجل</string>
+    <string name="to_sign_up">للتسجيل</string>
+    <string name="last_name">الكنية</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="male">رجل</string>
+    <string name="female">امرأة</string>
+    <string name="birthday_date">تاريخ الميلاد</string>
+    <string name="address_line_one">سطر العنوان 1</string>
+    <string name="address_line_two">سطر العنوان 2</string>
+    <string name="city">مدينة</string>
+    <string name="postal_code">الرقم البريدي</string>
+    <string name="villas">الفيلات</string>
+    <string name="beds">سرير</string>
+    <string name="square_metre">m²</string>
+    <string name="persons">الناس</string>
+    <string name="equipments">وسائل الراحة</string>
+    <string name="reservation">الحجز</string>
+    <string name="number_of_adults">عدد البالغين</string>
+    <string name="number_of_children">عدد الاطفال</string>
+    <string name="number_of_babies">عدد الاطفال</string>
+    <string name="book">احجز</string>
+    <string name="app_name">Royal Garden Villas</string>
+    <string name="hello_message">%s أهلا</string>
+    <string name="not_empty_value">لا يمكن أن تكون البيانات فارغة.</string>
+    <string name="welcome_message">%s المكتب الدولي للمعارض</string>
+    <string name="services">الخدمات</string>
+    <string name="extras">إضافي</string>
+</resources>

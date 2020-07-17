@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_in">Sign in</string>
+    <string name="to_sign_in">To sign in</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="sign_up">Sign up</string>
+    <string name="to_sign_up">To sign up</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthday_date">Birthday date</string>
+    <string name="address_line_one">Address line 1</string>
+    <string name="address_line_two">Address line 2</string>
+    <string name="city">City</string>
+    <string name="postal_code">Postal code</string>
+    <string name="villas">Villas</string>
+    <string name="beds">beds</string>
+    <string name="square_metre">m²</string>
+    <string name="persons">persons</string>
+    <string name="equipments">Equipments</string>
+    <string name="reservation">Reservation</string>
+    <string name="number_of_adults">Number of adults</string>
+    <string name="number_of_children">Number of children</string>
+    <string name="number_of_babies">Number of babies</string>
+    <string name="book">Book</string>
+    <string name="app_name">Royal Garden Villas</string>
+    <string name="hello_message">Hello %s</string>
+    <string name="not_empty_value">The data cannot be empty.</string>
+    <string name="welcome_message">Welcome %s</string>
+    <string name="services">Services</string>
+    <string name="extras">Extras</string>
+</resources>

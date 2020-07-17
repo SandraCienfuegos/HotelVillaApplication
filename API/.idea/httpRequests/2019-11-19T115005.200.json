@@ -1,0 +1,14 @@
+{
+  "data": {
+    "customerId": 2,
+    "firstName": "Sandra",
+    "lastName": "Cienfuegos Bot",
+    "email": "sandra.cienfuegos@helb-prigogine.be",
+    "token": null
+  },
+  "status": {
+    "timestamp": "2019-11-19T11:50:05.4422825+01:00",
+    "errorCode": 0,
+    "errorMessage": null
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "data": null,
+  "status": {
+    "timestamp": "2019-11-19T11:46:07.742922+01:00",
+    "errorCode": 400,
+    "errorMessage": "An error occurred when saving the customer: Object reference not set to an instance of an object."
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "data": {
+    "customerId": 1,
+    "firstName": "Ilyas",
+    "lastName": "Lefebvre",
+    "email": "ilyas.lefebvre@helb-prigogine.be",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE1NzMwNzQ5ODEsImV4cCI6MjQzNjk4ODU4MSwiaWF0IjoxNTczMDc0OTgxfQ.QUH9qL-bgAXziZjsiTif0PbwCtekokUaeZoMV1F4Yc8"
+  },
+  "status": {
+    "timestamp": "2019-11-06T22:16:22.0716689+01:00",
+    "errorCode": 0,
+    "errorMessage": null
+  }
+}

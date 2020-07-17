@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\drago\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\drago\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_API.216176771.00" t="ExcludeRecursive" />
+    <e p="C:\Users\drago\Desktop\HELB\2019-2020\HotelVilla\Projet Sandra\API" t="IncludeFlat">
+      <e p="API" t="IncludeRecursive">
+        <e p="API.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AuthorizeController.cs" t="Include" />
+          <e p="CountriesController.cs" t="Include" />
+          <e p="CultureController.cs" t="Include" />
+          <e p="CultureRouteAttribute.cs" t="Include" />
+          <e p="CustomersController.cs" t="Include" />
+          <e p="ExtrasController.cs" t="Include" />
+          <e p="ReservationsController.cs" t="Include" />
+          <e p="Response" t="Include">
+            <e p="VillaHotelApiResponse.cs" t="Include" />
+            <e p="VillaHotelApiStatus.cs" t="Include" />
+          </e>
+          <e p="ServicesController.cs" t="Include" />
+          <e p="VillasController.cs" t="Include" />
+        </e>
+        <e p="Domain" t="Include">
+          <e p="Models" t="Include">
+            <e p="Address.cs" t="Include" />
+            <e p="Admin.cs" t="Include" />
+            <e p="Country.cs" t="Include" />
+            <e p="Customer.cs" t="Include" />
+            <e p="EPriceChoice.cs" t="Include" />
+            <e p="Equipment.cs" t="Include" />
+            <e p="EquipmentLanguage.cs" t="Include" />
+            <e p="ESex.cs" t="Include" />
+            <e p="Extra.cs" t="Include" />
+            <e p="ExtraLanguage.cs" t="Include" />
+            <e p="Formula.cs" t="Include" />
+            <e p="FormulaLanguage.cs" t="Include" />
+            <e p="Language.cs" t="Include" />
+            <e p="Reservation.cs" t="Include" />
+            <e p="ReservationExtra.cs" t="Include" />
+            <e p="ReservationService.cs" t="Include" />
+            <e p="Service.cs" t="Include" />
+            <e p="ServiceLanguage.cs" t="Include" />
+            <e p="Villa.cs" t="Include" />
+            <e p="VillaEquipment.cs" t="Include" />
+            <e p="VillaFormula.cs" t="Include" />
+            <e p="VillaLanguage.cs" t="Include" />
+            <e p="VillaMedia.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="IAddressRepository.cs" t="Include" />
+            <e p="ICountryRepository.cs" t="Include" />
+            <e p="ICustomerRepository.cs" t="Include" />
+            <e p="IEquipmentRepository.cs" t="Include" />
+            <e p="IExtraRepository.cs" t="Include" />
+            <e p="IFormulaRepository.cs" t="Include" />
+            <e p="IReservationRepository.cs" t="Include" />
+            <e p="IServiceRepository.cs" t="Include" />
+            <e p="IUnitOfWork.cs" t="Include" />
+            <e p="IVillaMediaRepository.cs" t="Include" />
+            <e p="IVillaRepository.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="Communication" t="Include">
+              <e p="BaseResponse.cs" t="Include" />
+              <e p="CustomerResponse.cs" t="Include" />
+              <e p="ReservationResponse.cs" t="Include" />
+            </e>
+            <e p="ICountryService.cs" t="Include" />
+            <e p="ICustomerService.cs" t="Include" />
+            <e p="IExtraService.cs" t="Include" />
+            <e p="IReservationService.cs" t="Include" />
+            <e p="IServiceService.cs" t="Include" />
+            <e p="IVillaService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="DateTimeExtensions.cs" t="Include" />
+          <e p="StringTokenExtension.cs" t="Include" />
+        </e>
+        <e p="Hubs" t="Include">
+          <e p="IReservationHub.cs" t="Include" />
+          <e p="ReservationHub.cs" t="Include" />
+        </e>
+        <e p="Infrastructure" t="Include">
+          <e p="CryptographyTool.cs" t="Include" />
+          <e p="DateTimeConverter.cs" t="Include" />
+          <e p="JWTProvider.cs" t="Include" />
+          <e p="UrlRequestCultureProvider.cs" t="Include" />
+        </e>
+        <e p="Mapping" t="Include">
+          <e p="ModelToResourceProfile.cs" t="Include" />
+          <e p="ResourceToModelProfile.cs" t="Include" />
+        </e>
+        <e p="Media" t="Include">
+          <e p="icons" t="Include">
+            <e p="bathrobe.png" t="Include" />
+            <e p="coffee.png" t="Include" />
+            <e p="kitchen.png" t="Include" />
+            <e p="music.png" t="Include" />
+            <e p="phone.png" t="Include" />
+            <e p="pool.png" t="Include" />
+            <e p="safebox.png" t="Include" />
+            <e p="shower.png" t="Include" />
+            <e p="soap.png" t="Include" />
+            <e p="terrace.png" t="Include" />
+            <e p="tub.png" t="Include" />
+            <e p="tv.png" t="Include" />
+            <e p="umbrella.png" t="Include" />
+            <e p="washer.png" t="Include" />
+            <e p="wifi.png" t="Include" />
+            <e p="wine.png" t="Include" />
+          </e>
+          <e p="Pictures" t="Include">
+            <e p="4K" t="Include">
+              <e p="duchess-villa-1.jpg" t="Include" />
+              <e p="duchess-villa-2.jpg" t="Include" />
+              <e p="duchess-villa-3.jpg" t="Include" />
+              <e p="duchess-villa-4.jpg" t="Include" />
+              <e p="duchess-villa-5.jpg" t="Include" />
+              <e p="duchess-villa-6.jpg" t="Include" />
+              <e p="duchess-villa-7.jpg" t="Include" />
+              <e p="gran-duchess-villa-1.jpg" t="Include" />
+              <e p="gran-duchess-villa-2.jpg" t="Include" />
+              <e p="gran-duchess-villa-3.jpg" t="Include" />
+              <e p="gran-duchess-villa-4.jpg" t="Include" />
+              <e p="gran-duchess-villa-5.jpg" t="Include" />
+              <e p="gran-majestic-villa-1.jpg" t="Include" />
+              <e p="gran-majestic-villa-2.jpg" t="Include" />
+              <e p="gran-majestic-villa-3.jpg" t="Include" />
+              <e p="gran-majestic-villa-4.jpg" t="Include" />
+              <e p="gran-majestic-villa-5.jpg" t="Include" />
+              <e p="gran-princess-villa-1.jpg" t="Include" />
+              <e p="gran-princess-villa-2.jpg" t="Include" />
+              <e p="gran-princess-villa-3.jpg" t="Include" />
+              <e p="gran-princess-villa-4.jpg" t="Include" />
+              <e p="imperial-villa-1.jpg" t="Include" />
+              <e p="imperial-villa-2.jpg" t="Include" />
+              <e p="imperial-villa-3.jpg" t="Include" />
+              <e p="imperial-villa-4.jpg" t="Include" />
+              <e p="majestic-villa-1.jpg" t="Include" />
+              <e p="majestic-villa-2.jpg" t="Include" />
+              <e p="majestic-villa-3.jpg" t="Include" />
+              <e p="majestic-villa-4.jpg" t="Include" />
+              <e p="majestic-villa-5.jpg" t="Include" />
+              <e p="majestic-villa-6.jpg" t="Include" />
+              <e p="majestic-villa-7.jpg" t="Include" />
+              <e p="majestic-villa-8.jpg" t="Include" />
+              <e p="princess-villa-1.jpg" t="Include" />
+              <e p="princess-villa-2.jpg" t="Include" />
+              <e p="princess-villa-3.jpg" t="Include" />
+              <e p="princess-villa-4.jpg" t="Include" />
+              <e p="queen-villa-1.jpg" t="Include" />
+              <e p="queen-villa-2.jpg" t="Include" />
+              <e p="queen-villa-3.jpg" t="Include" />
+              <e p="queen-villa-4.jpg" t="Include" />
+              <e p="queen-villa-5.jpg" t="Include" />
+              <e p="queen-villa-6.jpg" t="Include" />
+              <e p="queen-villa-7.jpg" t="Include" />
+              <e p="queen-villa-8.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-1.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-2.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-3.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-4.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-5.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-6.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-7.jpg" t="Include" />
+              <e p="queen-villa-with-pavillon-8.jpg" t="Include" />
+              <e p="royal-princess-villa-1.jpg" t="Include" />
+              <e p="royal-princess-villa-2.jpg" t="Include" />
+              <e p="royal-princess-villa-3.jpg" t="Include" />
+              <e p="royal-princess-villa-4.jpg" t="Include" />
+              <e p="royal-princess-villa-5.jpg" t="Include" />
+              <e p="royal-villa-1.jpg" t="Include" />
+              <e p="royal-villa-2.jpg" t="Include" />
+              <e p="royal-villa-3.jpg" t="Include" />
+              <e p="royal-villa-4.jpg" t="Include" />
+            </e>
+            <e p="duchess-villa-0.jpg" t="Include" />
+            <e p="duchess-villa-1.jpg" t="Include" />
+            <e p="duchess-villa-2.jpg" t="Include" />
+            <e p="duchess-villa-3.jpg" t="Include" />
+            <e p="duchess-villa-4.jpg" t="Include" />
+            <e p="duchess-villa-5.jpg" t="Include" />
+            <e p="duchess-villa-6.jpg" t="Include" />
+            <e p="duchess-villa-7.jpg" t="Include" />
+            <e p="duchess-villa-8.jpg" t="Include" />
+            <e p="duchess-villa-9.jpg" t="Include" />
+            <e p="gran-duchess-villa-1.jpg" t="Include" />
+            <e p="gran-duchess-villa-2.jpg" t="Include" />
+            <e p="gran-duchess-villa-3.jpg" t="Include" />
+            <e p="gran-duchess-villa-4.jpg" t="Include" />
+            <e p="gran-duchess-villa-5.jpg" t="Include" />
+            <e p="gran-majestic-villa-0.jpg" t="Include" />
+            <e p="gran-majestic-villa-1.jpg" t="Include" />
+            <e p="gran-majestic-villa-2.jpg" t="Include" />
+            <e p="gran-majestic-villa-3.jpg" t="Include" />
+            <e p="gran-majestic-villa-4.jpg" t="Include" />
+            <e p="gran-majestic-villa-5.jpg" t="Include" />
+            <e p="gran-majestic-villa-6.jpg" t="Include" />
+            <e p="gran-majestic-villa-7.jpg" t="Include" />
+            <e p="gran-majestic-villa-8.jpg" t="Include" />
+            <e p="gran-majestic-villa-9.jpg" t="Include" />
+            <e p="gran-princess-villa-0.jpg" t="Include" />
+            <e p="gran-princess-villa-1.jpg" t="Include" />
+            <e p="gran-princess-villa-2.jpg" t="Include" />
+            <e p="gran-princess-villa-3.jpg" t="Include" />
+            <e p="gran-princess-villa-4.jpg" t="Include" />
+            <e p="gran-princess-villa-5.jpg" t="Include" />
+            <e p="gran-princess-villa-6.jpg" t="Include" />
+            <e p="gran-princess-villa-7.jpg" t="Include" />
+            <e p="gran-princess-villa-8.jpg" t="Include" />
+            <e p="gran-princess-villa-9.jpg" t="Include" />
+            <e p="grand-duchess-villa-0.jpg" t="Include" />
+            <e p="grand-duchess-villa-1.jpg" t="Include" />
+            <e p="grand-duchess-villa-2.jpg" t="Include" />
+            <e p="grand-duchess-villa-3.jpg" t="Include" />
+            <e p="grand-duchess-villa-4.jpg" t="Include" />
+            <e p="grand-duchess-villa-5.jpg" t="Include" />
+            <e p="grand-duchess-villa-6.jpg" t="Include" />
+            <e p="grand-duchess-villa-7.jpg" t="Include" />
+            <e p="grand-duchess-villa-8.jpg" t="Include" />
+            <e p="grand-duchess-villa-9.jpg" t="Include" />
+            <e p="imperial-villa-0.jpg" t="Include" />
+            <e p="imperial-villa-1.jpg" t="Include" />
+            <e p="imperial-villa-2.jpg" t="Include" />
+            <e p="imperial-villa-3.jpg" t="Include" />
+            <e p="imperial-villa-4.jpg" t="Include" />
+            <e p="imperial-villa-5.jpg" t="Include" />
+            <e p="imperial-villa-6.jpg" t="Include" />
+            <e p="imperial-villa-7.jpg" t="Include" />
+            <e p="imperial-villa-8.jpg" t="Include" />
+            <e p="imperial-villa-9.jpg" t="Include" />
+            <e p="majestic-villa-0.jpg" t="Include" />
+            <e p="majestic-villa-1.jpg" t="Include" />
+            <e p="majestic-villa-2.jpg" t="Include" />
+            <e p="majestic-villa-3.jpg" t="Include" />
+            <e p="majestic-villa-4.jpg" t="Include" />
+            <e p="majestic-villa-5.jpg" t="Include" />
+            <e p="majestic-villa-6.jpg" t="Include" />
+            <e p="majestic-villa-7.jpg" t="Include" />
+            <e p="majestic-villa-8.jpg" t="Include" />
+            <e p="majestic-villa-9.jpg" t="Include" />
+            <e p="princess-villa-0.jpg" t="Include" />
+            <e p="princess-villa-1.jpg" t="Include" />
+            <e p="princess-villa-2.jpg" t="Include" />
+            <e p="princess-villa-3.jpg" t="Include" />
+            <e p="princess-villa-4.jpg" t="Include" />
+            <e p="princess-villa-5.jpg" t="Include" />
+            <e p="princess-villa-6.jpg" t="Include" />
+            <e p="princess-villa-7.jpg" t="Include" />
+            <e p="princess-villa-8.jpg" t="Include" />
+            <e p="princess-villa-9.jpg" t="Include" />
+            <e p="queen-villa-0.jpg" t="Include" />
+            <e p="queen-villa-1.jpg" t="Include" />
+            <e p="queen-villa-2.jpg" t="Include" />
+            <e p="queen-villa-3.jpg" t="Include" />
+            <e p="queen-villa-4.jpg" t="Include" />
+            <e p="queen-villa-5.jpg" t="Include" />
+            <e p="queen-villa-6.jpg" t="Include" />
+            <e p="queen-villa-7.jpg" t="Include" />
+            <e p="queen-villa-8.jpg" t="Include" />
+            <e p="queen-villa-9.jpg" t="Include" />
+            <e p="queen-villa-pavilion-0.jpg" t="Include" />
+            <e p="queen-villa-pavilion-1.jpg" t="Include" />
+            <e p="queen-villa-pavilion-2.jpg" t="Include" />
+            <e p="queen-villa-pavilion-3.jpg" t="Include" />
+            <e p="queen-villa-pavilion-4.jpg" t="Include" />
+            <e p="queen-villa-pavilion-5.jpg" t="Include" />
+            <e p="queen-villa-pavilion-6.jpg" t="Include" />
+            <e p="queen-villa-pavilion-7.jpg" t="Include" />
+            <e p="queen-villa-pavilion-8.jpg" t="Include" />
+            <e p="queen-villa-pavilion-9.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-0.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-1.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-2.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-3.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-4.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-5.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-6.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-7.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-8.jpg" t="Include" />
+            <e p="queen-villa-with-pavilion-9.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-1.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-2.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-3.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-4.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-5.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-6.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-7.jpg" t="Include" />
+            <e p="queen-villa-with-pavillon-8.jpg" t="Include" />
+            <e p="royal-princess-villa-0.jpg" t="Include" />
+            <e p="royal-princess-villa-1.jpg" t="Include" />
+            <e p="royal-princess-villa-2.jpg" t="Include" />
+            <e p="royal-princess-villa-3.jpg" t="Include" />
+            <e p="royal-princess-villa-4.jpg" t="Include" />
+            <e p="royal-princess-villa-5.jpg" t="Include" />
+            <e p="royal-princess-villa-6.jpg" t="Include" />
+            <e p="royal-princess-villa-7.jpg" t="Include" />
+            <e p="royal-princess-villa-8.jpg" t="Include" />
+            <e p="royal-princess-villa-9.jpg" t="Include" />
+            <e p="royal-villa-0.jpg" t="Include" />
+            <e p="royal-villa-1.jpg" t="Include" />
+            <e p="royal-villa-2.jpg" t="Include" />
+            <e p="royal-villa-3.jpg" t="Include" />
+            <e p="royal-villa-4.jpg" t="Include" />
+            <e p="royal-villa-5.jpg" t="Include" />
+            <e p="royal-villa-6.jpg" t="Include" />
+            <e p="royal-villa-7.jpg" t="Include" />
+            <e p="royal-villa-8.jpg" t="Include" />
+            <e p="royal-villa-9.jpg" t="Include" />
+            <e p="villa-with-pavilion-0.jpg" t="Include" />
+            <e p="villa-with-pavilion-1.jpg" t="Include" />
+            <e p="villa-with-pavilion-2.jpg" t="Include" />
+            <e p="villa-with-pavilion-3.jpg" t="Include" />
+            <e p="villa-with-pavilion-4.jpg" t="Include" />
+            <e p="villa-with-pavilion-5.jpg" t="Include" />
+            <e p="villa-with-pavilion-6.jpg" t="Include" />
+            <e p="villa-with-pavilion-7.jpg" t="Include" />
+            <e p="villa-with-pavilion-8.jpg" t="Include" />
+            <e p="villa-with-pavilion-9.jpg" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="API.AssemblyInfo.cs" t="Include" />
+              <e p="API.MvcApplicationPartsAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Other" t="Include">
+          <e p="draft" t="Include" />
+          <e p="draft.txt" t="Include" />
+          <e p="rest-api.http" t="Include" />
+        </e>
+        <e p="Persistence" t="Include">
+          <e p="Contexts" t="Include">
+            <e p="AppDbContext.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="AddressRepository.cs" t="Include" />
+            <e p="BaseRepository.cs" t="Include" />
+            <e p="CountryRepository.cs" t="Include" />
+            <e p="CustomerRepository.cs" t="Include" />
+            <e p="EquipmentRepository.cs" t="Include" />
+            <e p="ExtraRepository.cs" t="Include" />
+            <e p="FormulaRepository.cs" t="Include" />
+            <e p="ReservationRepository.cs" t="Include" />
+            <e p="ServiceRepository.cs" t="Include" />
+            <e p="UnitOfWork.cs" t="Include" />
+            <e p="VillaMediaRepository.cs" t="Include" />
+            <e p="VillaRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="AddressResource.cs" t="Include" />
+          <e p="AuthenticatedCustomerResource.cs" t="Include" />
+          <e p="CountryResource.cs" t="Include" />
+          <e p="CredentialsResource.cs" t="Include" />
+          <e p="CustomerResource.cs" t="Include" />
+          <e p="EquipmentResource.cs" t="Include" />
+          <e p="ExtraLanguage.cs" t="Include" />
+          <e p="ExtraResource.cs" t="Include" />
+          <e p="FormulaResource.cs" t="Include" />
+          <e p="LanguageResource.cs" t="Include" />
+          <e p="NewReservationResource.cs" t="Include" />
+          <e p="ReservationExtraResource.cs" t="Include" />
+          <e p="ReservationResource.cs" t="Include" />
+          <e p="ReservationServiceResource.cs" t="Include" />
+          <e p="ServiceResource.cs" t="Include" />
+          <e p="SignUpCustomerResource.cs" t="Include" />
+          <e p="VillaFormulaResource.cs" t="Include" />
+          <e p="VillaMediaResource.cs" t="Include" />
+          <e p="VillaResource.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="CountryService.cs" t="Include" />
+          <e p="CustomerService.cs" t="Include" />
+          <e p="ExtraService.cs" t="Include" />
+          <e p="ReservationService.cs" t="Include" />
+          <e p="ServiceService.cs" t="Include" />
+          <e p="VillaService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="API.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WinForms" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Home.cs" t="Include" />
+        <e p="Home.Designer.cs" t="Include" />
+        <e p="Home.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="ReservationView.cs" t="Include" />
+        <e p="ReservationView.Designer.cs" t="Include" />
+        <e p="ReservationView.resx" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="AddressResource.cs" t="Include" />
+          <e p="AuthenticatedCustomerResource.cs" t="Include" />
+          <e p="CountryResource.cs" t="Include" />
+          <e p="CredentialsResource.cs" t="Include" />
+          <e p="CustomerResource.cs" t="Include" />
+          <e p="EquipmentResource.cs" t="Include" />
+          <e p="ExtraLanguage.cs" t="Include" />
+          <e p="ExtraResource.cs" t="Include" />
+          <e p="FormulaResource.cs" t="Include" />
+          <e p="LanguageResource.cs" t="Include" />
+          <e p="NewReservationResource.cs" t="Include" />
+          <e p="ReservationExtraResource.cs" t="Include" />
+          <e p="ReservationResource.cs" t="Include" />
+          <e p="ReservationServiceResource.cs" t="Include" />
+          <e p="ServiceResource.cs" t="Include" />
+          <e p="VillaFormulaResource.cs" t="Include" />
+          <e p="VillaMediaResource.cs" t="Include" />
+          <e p="VillaResource.cs" t="Include" />
+        </e>
+        <e p="WinForms.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -1,0 +1,79 @@
+﻿﻿            /*
+        return appDbContext.Villas
+            .Include(x => x.VillaLanguages)
+            .Select(v => new
+            {
+                v.VillaId,
+                v.VillaName,
+                v.VillaPath,
+                v.NumberOfBeds,
+                v.SurfaceArea,
+                v.PriceOnSite,
+                v.PriceOnline,
+                Language,
+                v.VillaLanguages.FirstOrDefault(x => x.Language.IsoCode == Language).Description,
+                Equipments = appDbContext.Equipments
+                    .Include(x => x.EquipmentLanguages)
+                    .Include(x => x.VillaEquipments)
+                    .Select(x => new
+                    {
+                        x.EquipmentId,
+                        x.IconFile,
+                        x.EquipmentLanguages.FirstOrDefault(x => x.Language.IsoCode == Language).EquipmentName
+                    }).ToList(),
+                Prices = appDbContext.Formulas
+                    .Include(x => x.FormulaLanguages)
+                    .Include(x => x.VillaFormulas)
+                    .Select(x => new
+                    {
+                        x.FormulaId,
+                        x.FormulaLanguages.FirstOrDefault(x => x.Language.IsoCode == Language).FormulaName,
+                        prices = x.VillaFormulas
+                            .Where(x => x.VillaId == v.VillaId)
+                            .Select(x => new
+                            {
+                                x.PriceAdult,
+                                x.PriceChild,
+                                x.PriceBaby,
+                            }).ToList()
+                    })
+                    .Select(x => new
+                    {
+                        x.FormulaId,
+                        x.FormulaName,
+                        x.prices[0].PriceAdult,
+                        x.prices[0].PriceChild,
+                        x.prices[0].PriceBaby,
+                    }).ToList()
+            })
+            .ToList();
+            */
+               /*
+                        appDbContext.Villas
+                        .Include(x => x.Reservations)
+                        .Include(x => x.VillaEquipments)
+                        .ThenInclude(x => x.Equipment)
+                        .ThenInclude(x => x.EquipmentLanguages)
+                        .Include(x => x.VillaFormulas)
+                        .ThenInclude(x => x.Formula)
+                        .ThenInclude(x => x.FormulaLanguages)
+                        .Include(x => x.VillaLanguages)
+                        .ThenInclude(x => x.Language)
+                        .Include(x => x.VillaMedias)
+                        .Select(x => new Villa
+                        {
+                            VillaId = x.VillaId,
+                            VillaName = x.VillaName,
+                            VillaPath = x.VillaPath,
+                            NumberOfBeds = x.NumberOfBeds,
+                            SurfaceArea = x.SurfaceArea,
+                            PriceOnline = x.PriceOnline,
+                            PriceOnSite = x.PriceOnSite,
+                            Reservations = x.Reservations,
+                            VillaEquipments = x.VillaEquipments,
+                            VillaFormulas = x.VillaFormulas,
+                            VillaLanguages = x.VillaLanguages.Where(x => x.Language.IsoCode == Language).ToList(),
+                            VillaMedias = x.VillaMedias,
+                        })
+                        .ToList();
+                        */

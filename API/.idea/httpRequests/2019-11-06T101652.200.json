@@ -1,0 +1,17 @@
+﻿[
+  {
+    "serviceId": 1,
+    "servicePrice": 50,
+    "serviceName": "Airport transfers"
+  },
+  {
+    "serviceId": 2,
+    "servicePrice": 25,
+    "serviceName": "Fitness hall"
+  },
+  {
+    "serviceId": 3,
+    "servicePrice": 20,
+    "serviceName": "Pillow card"
+  }
+]

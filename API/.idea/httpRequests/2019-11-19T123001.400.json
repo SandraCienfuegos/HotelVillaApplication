@@ -1,0 +1,8 @@
+{
+  "data": null,
+  "status": {
+    "timestamp": "2019-11-19T12:30:01.5026296+01:00",
+    "errorCode": 400,
+    "errorMessage": "An error occurred when saving the customer: An error occurred while updating the entries. See the inner exception for details."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "data": null,
+  "status": {
+    "timestamp": "2019-11-19T12:27:20.17218+01:00",
+    "errorCode": 400,
+    "errorMessage": "Email or/and password is incorrect"
+  }
+}

@@ -1,0 +1,107 @@
+﻿# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection) or
+# paste cURL into the file and request will be converted to HTTP Request format.
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+# https://localhost:5001/customers/authenticate
+# https://localhost:5001/fr/extras
+# https://localhost:5001/fr/extras/1
+# https://localhost:5001/fr/services
+# https://localhost:5001/fr/services/1
+# https://localhost:5001/fr/villas
+# https://localhost:5001/fr/villas/1
+# https://localhost:5001/fr/villas/1/equipments
+# https://localhost:5001/fr/villas/1/formulas
+# https://localhost:5001/fr/villas/1/medias
+
+
+### Customers
+POST https://localhost:5001/customers/sign_up
+Content-Type: application/json
+
+{
+  "Address": {
+    "CountryId": 1,
+    "LineOne": "Avenue Minerve, 27",
+    "LineTwo": null,
+    "PostCode": "1190",
+    "City": "Bruxelles"
+  },
+  "FirstName": "Sandra",
+  "LastName": "Cienfuegos Bot",
+  "PhoneNumber": "+32470568875",
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra",
+  "BirthdayDate": "2000-01-01T00:00:00Z",
+  "Sex": 1
+}
+
+### 
+
+POST https://localhost:5001/customers/sign_in
+Content-Type: application/json
+
+{
+  "Email": "sandra.cienfuegos@helb-prigogine.be",
+  "Password": "sandra"
+}
+
+<> 2019-11-06T101622.200.json
+
+### Extras
+GET https://localhost:5001/fr/extras
+Accept: application/json
+
+<> 2019-11-06T101644.200.json
+
+### Extras/{id}
+GET https://localhost:5001/fr/extras/1
+Accept: application/json
+
+<> 2019-11-06T101648.200.json
+
+### Services
+GET https://localhost:5001/fr/services
+Accept: application/json
+
+<> 2019-11-06T101652.200.json
+
+### Services/{id}
+GET https://localhost:5001/fr/services/1
+Accept: application/json
+
+<> 2019-11-06T101656.200.json
+
+### Villas
+GET https://localhost:5001/fr/villas
+Accept: application/json
+
+<> 2019-11-06T101700.200.json
+
+### Villas/{id}
+GET https://localhost:5001/fr/villas/1
+Accept: application/json
+
+<> 2019-11-06T101703.200.json
+
+### Villas/{id}/equipments
+GET https://localhost:5001/fr/villas/1/equipments
+Accept: application/json
+
+<> 2019-11-06T101708.200.json
+
+### Villas/{id}/formulas
+GET https://localhost:5001/fr/villas/1/formulas
+Accept: application/json
+
+<> 2019-11-06T101712.200.json
+
+### Villas/{id}/medias
+GET https://localhost:5001/fr/villas/1/medias
+Accept: application/json
+
+<> 2019-11-06T101717.200.json
+
+###

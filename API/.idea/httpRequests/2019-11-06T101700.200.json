@@ -1,0 +1,574 @@
+﻿[
+  {
+    "villaId": 1,
+    "villaName": "Gran Princess Villa",
+    "villaPath": "gran-princess-villa",
+    "numberOfBeds": 2,
+    "surfaceArea": 233,
+    "priceOnline": 629,
+    "priceOnSite": 679,
+    "description": "Treat you and your family/friends to an upgrade and enjoy even more space in one of our Gran Princess villas. Your lavish retreat provides everything you could possible need for an extraordinary luxury break in Tenerife, including an airy terrace with ocean views and a heated private pool.",
+    "medias": [
+      {
+        "mediaId": 2,
+        "mediaName": "gran-princess-villa-0"
+      },
+      {
+        "mediaId": 3,
+        "mediaName": "gran-princess-villa-1"
+      },
+      {
+        "mediaId": 4,
+        "mediaName": "gran-princess-villa-2"
+      },
+      {
+        "mediaId": 5,
+        "mediaName": "gran-princess-villa-3"
+      },
+      {
+        "mediaId": 6,
+        "mediaName": "gran-princess-villa-4"
+      },
+      {
+        "mediaId": 7,
+        "mediaName": "gran-princess-villa-5"
+      },
+      {
+        "mediaId": 8,
+        "mediaName": "gran-princess-villa-6"
+      },
+      {
+        "mediaId": 9,
+        "mediaName": "gran-princess-villa-7"
+      },
+      {
+        "mediaId": 10,
+        "mediaName": "gran-princess-villa-8"
+      },
+      {
+        "mediaId": 11,
+        "mediaName": "gran-princess-villa-9"
+      }
+    ]
+  },
+  {
+    "villaId": 2,
+    "villaName": "Princess Villa",
+    "villaPath": "princess-villa",
+    "numberOfBeds": 2,
+    "surfaceArea": 208,
+    "priceOnline": 543,
+    "priceOnSite": 593,
+    "description": "Ideal for luxury family holidays in Tenerife, luxuriate in the two-bedroom, two-bathroom Princess villas. Bask in sub-tropical warmth around your heated private pool, sip slow sunset cocktails on the ocean-view terrace, and enjoy quality family time together in the chic living/dining area.",
+    "medias": [
+      {
+        "mediaId": 25,
+        "mediaName": "princess-villa-9"
+      },
+      {
+        "mediaId": 26,
+        "mediaName": "princess-villa-8"
+      },
+      {
+        "mediaId": 27,
+        "mediaName": "princess-villa-7"
+      },
+      {
+        "mediaId": 28,
+        "mediaName": "princess-villa-6"
+      },
+      {
+        "mediaId": 47,
+        "mediaName": "princess-villa-0"
+      },
+      {
+        "mediaId": 48,
+        "mediaName": "princess-villa-1"
+      },
+      {
+        "mediaId": 49,
+        "mediaName": "princess-villa-2"
+      },
+      {
+        "mediaId": 50,
+        "mediaName": "princess-villa-3"
+      },
+      {
+        "mediaId": 51,
+        "mediaName": "princess-villa-4"
+      },
+      {
+        "mediaId": 52,
+        "mediaName": "princess-villa-5"
+      }
+    ]
+  },
+  {
+    "villaId": 3,
+    "villaName": "Gran Duchess Villa",
+    "villaPath": "grand-duchess-villa",
+    "numberOfBeds": 1,
+    "surfaceArea": 200,
+    "priceOnline": 518,
+    "priceOnSite": 568,
+    "description": "Revel in all the same amenities as the Duchess Villa, including a heated private pool, but spread your wings even further. Spend lazy days lounging under a Balinese gazebo, and stretch out in the oversized lounge.",
+    "medias": [
+      {
+        "mediaId": 37,
+        "mediaName": "grand-duchess-villa-0"
+      },
+      {
+        "mediaId": 38,
+        "mediaName": "grand-duchess-villa-1"
+      },
+      {
+        "mediaId": 39,
+        "mediaName": "grand-duchess-villa-2"
+      },
+      {
+        "mediaId": 41,
+        "mediaName": "grand-duchess-villa-3"
+      },
+      {
+        "mediaId": 42,
+        "mediaName": "grand-duchess-villa-5"
+      },
+      {
+        "mediaId": 43,
+        "mediaName": "grand-duchess-villa-6"
+      },
+      {
+        "mediaId": 44,
+        "mediaName": "grand-duchess-villa-7"
+      },
+      {
+        "mediaId": 45,
+        "mediaName": "grand-duchess-villa-8"
+      },
+      {
+        "mediaId": 46,
+        "mediaName": "grand-duchess-villa-9"
+      },
+      {
+        "mediaId": 53,
+        "mediaName": "grand-duchess-villa-4"
+      }
+    ]
+  },
+  {
+    "villaId": 4,
+    "villaName": "Duchess Villa",
+    "villaPath": "duchess-villa",
+    "numberOfBeds": 1,
+    "surfaceArea": 140,
+    "priceOnline": 372,
+    "priceOnSite": 472,
+    "description": "Enjoy the pampering of your own personal hideaway with a heated private pool, along with other luxurious amenities like a fully equipped kitchen, a secluded ocean-view terrace and a fully-stocked drinks cabinet.",
+    "medias": [
+      {
+        "mediaId": 29,
+        "mediaName": "duchess-villa-2"
+      },
+      {
+        "mediaId": 30,
+        "mediaName": "duchess-villa-3"
+      },
+      {
+        "mediaId": 31,
+        "mediaName": "duchess-villa-4"
+      },
+      {
+        "mediaId": 32,
+        "mediaName": "duchess-villa-5"
+      },
+      {
+        "mediaId": 33,
+        "mediaName": "duchess-villa-6"
+      },
+      {
+        "mediaId": 34,
+        "mediaName": "duchess-villa-7"
+      },
+      {
+        "mediaId": 35,
+        "mediaName": "duchess-villa-8"
+      },
+      {
+        "mediaId": 36,
+        "mediaName": "duchess-villa-9"
+      },
+      {
+        "mediaId": 82,
+        "mediaName": "duchess-villa-1"
+      },
+      {
+        "mediaId": 110,
+        "mediaName": "duchess-villa-0"
+      }
+    ]
+  },
+  {
+    "villaId": 5,
+    "villaName": "Royal Princess Villa",
+    "villaPath": "royal-princess-villa",
+    "numberOfBeds": 2,
+    "surfaceArea": 240,
+    "priceOnline": 740,
+    "priceOnSite": 790,
+    "description": "Spoil yourself in this opulent cocoon of serenity, a grandiose 2-bedroom villa designed for royalty. Soak up the sunshine on the huge terrace, then ease into the watery bliss of your heated private pool. Every convenience imaginable is right at your fingertips, including a full kitchen, outdoor Bali beds and plasma TVs.",
+    "medias": [
+      {
+        "mediaId": 12,
+        "mediaName": "royal-princess-villa-0"
+      },
+      {
+        "mediaId": 13,
+        "mediaName": "royal-princess-villa-1"
+      },
+      {
+        "mediaId": 14,
+        "mediaName": "royal-princess-villa-2"
+      },
+      {
+        "mediaId": 15,
+        "mediaName": "royal-princess-villa-3"
+      },
+      {
+        "mediaId": 16,
+        "mediaName": "royal-princess-villa-4"
+      },
+      {
+        "mediaId": 17,
+        "mediaName": "royal-princess-villa-5"
+      },
+      {
+        "mediaId": 18,
+        "mediaName": "royal-princess-villa-6"
+      },
+      {
+        "mediaId": 19,
+        "mediaName": "royal-princess-villa-7"
+      },
+      {
+        "mediaId": 20,
+        "mediaName": "royal-princess-villa-8"
+      },
+      {
+        "mediaId": 21,
+        "mediaName": "royal-princess-villa-9"
+      }
+    ]
+  },
+  {
+    "villaId": 6,
+    "villaName": "Majestic Villa",
+    "villaPath": "majestic-villa",
+    "numberOfBeds": 2,
+    "surfaceArea": 260,
+    "priceOnline": 800,
+    "priceOnSite": 850,
+    "description": "Embellished with hand-carved artefacts and your own complete bar, we guarantee it won’t take long before you succumb to the tranquillity of the Majestic Villa. Stylish duplex interiors feature exotic furnishings and rich soft furnishings, while the warm waters of your private pool beckon from the terrace.",
+    "medias": [
+      {
+        "mediaId": 22,
+        "mediaName": "majestic-villa-0"
+      },
+      {
+        "mediaId": 23,
+        "mediaName": "majestic-villa-1"
+      },
+      {
+        "mediaId": 24,
+        "mediaName": "majestic-villa-2"
+      },
+      {
+        "mediaId": 40,
+        "mediaName": "majestic-villa-3"
+      },
+      {
+        "mediaId": 54,
+        "mediaName": "majestic-villa-4"
+      },
+      {
+        "mediaId": 55,
+        "mediaName": "majestic-villa-5"
+      },
+      {
+        "mediaId": 56,
+        "mediaName": "majestic-villa-6"
+      },
+      {
+        "mediaId": 85,
+        "mediaName": "majestic-villa-7"
+      },
+      {
+        "mediaId": 86,
+        "mediaName": "majestic-villa-8"
+      },
+      {
+        "mediaId": 87,
+        "mediaName": "majestic-villa-9"
+      }
+    ]
+  },
+  {
+    "villaId": 7,
+    "villaName": "Gran Majestic Villa",
+    "villaPath": "gran-majestic-villa",
+    "numberOfBeds": 2,
+    "surfaceArea": 320,
+    "priceOnline": 843,
+    "priceOnSite": 893,
+    "description": "Indulge in the ultimate luxury of the Gran Majestic Villa. If you like the best of the best, this refined oasis of elegance has the best ocean views, the most privacy, the largest terrace and the biggest private pool of all our fabulous villas. Simply put… it’s simply special.",
+    "medias": [
+      {
+        "mediaId": 88,
+        "mediaName": "gran-majestic-villa-0"
+      },
+      {
+        "mediaId": 89,
+        "mediaName": "gran-majestic-villa-1"
+      },
+      {
+        "mediaId": 90,
+        "mediaName": "gran-majestic-villa-2"
+      },
+      {
+        "mediaId": 91,
+        "mediaName": "gran-majestic-villa-3"
+      },
+      {
+        "mediaId": 92,
+        "mediaName": "gran-majestic-villa-4"
+      },
+      {
+        "mediaId": 93,
+        "mediaName": "gran-majestic-villa-5"
+      },
+      {
+        "mediaId": 94,
+        "mediaName": "gran-majestic-villa-6"
+      },
+      {
+        "mediaId": 95,
+        "mediaName": "gran-majestic-villa-7"
+      },
+      {
+        "mediaId": 97,
+        "mediaName": "gran-majestic-villa-8"
+      },
+      {
+        "mediaId": 109,
+        "mediaName": "gran-majestic-villa-9"
+      }
+    ]
+  },
+  {
+    "villaId": 8,
+    "villaName": "Queen Villa",
+    "villaPath": "queen-villa",
+    "numberOfBeds": 3,
+    "surfaceArea": 370,
+    "priceOnline": 958,
+    "priceOnSite": 1008,
+    "description": "With space for up to six family members or friends, the deluxe Queen Villa maximises the feeling of stylish space and comfort while still retaining an air of secluded sophistication. From morning to night the high-end refinements such as a heated private pool, supremely comfortable beds and exotic décor provide pampering beyond your imagination.",
+    "medias": [
+      {
+        "mediaId": 98,
+        "mediaName": "queen-villa-0"
+      },
+      {
+        "mediaId": 99,
+        "mediaName": "queen-villa-1"
+      },
+      {
+        "mediaId": 100,
+        "mediaName": "queen-villa-2"
+      },
+      {
+        "mediaId": 101,
+        "mediaName": "queen-villa-3"
+      },
+      {
+        "mediaId": 102,
+        "mediaName": "queen-villa-4"
+      },
+      {
+        "mediaId": 103,
+        "mediaName": "queen-villa-5"
+      },
+      {
+        "mediaId": 104,
+        "mediaName": "queen-villa-6"
+      },
+      {
+        "mediaId": 105,
+        "mediaName": "queen-villa-7"
+      },
+      {
+        "mediaId": 106,
+        "mediaName": "queen-villa-8"
+      },
+      {
+        "mediaId": 107,
+        "mediaName": "queen-villa-9"
+      }
+    ]
+  },
+  {
+    "villaId": 9,
+    "villaName": "Royal Villa",
+    "villaPath": "royal-villa",
+    "numberOfBeds": 3,
+    "surfaceArea": 355,
+    "priceOnline": 1000,
+    "priceOnSite": 1050,
+    "description": "Revel in the palatial surroundings of the Royal Villa, where handpicked furnishings, silky soft fabrics and a full spectrum of luxe amenities complement the huge, sun-drenched terrace and personal heated pool. Make this your space in a home that you dream of.",
+    "medias": [
+      {
+        "mediaId": 57,
+        "mediaName": "royal-villa-5"
+      },
+      {
+        "mediaId": 58,
+        "mediaName": "royal-villa-6"
+      },
+      {
+        "mediaId": 59,
+        "mediaName": "royal-villa-7"
+      },
+      {
+        "mediaId": 60,
+        "mediaName": "royal-villa-8"
+      },
+      {
+        "mediaId": 61,
+        "mediaName": "royal-villa-9"
+      },
+      {
+        "mediaId": 68,
+        "mediaName": "royal-villa-4"
+      },
+      {
+        "mediaId": 83,
+        "mediaName": "royal-villa-3"
+      },
+      {
+        "mediaId": 84,
+        "mediaName": "royal-villa-1"
+      },
+      {
+        "mediaId": 96,
+        "mediaName": "royal-villa-2"
+      },
+      {
+        "mediaId": 108,
+        "mediaName": "royal-villa-0"
+      }
+    ]
+  },
+  {
+    "villaId": 10,
+    "villaName": "Imperial Villa",
+    "villaPath": "imperial-villa",
+    "numberOfBeds": 3,
+    "surfaceArea": 366,
+    "priceOnline": 1100,
+    "priceOnSite": 1150,
+    "description": "Relax in your exquisite, three-bedroom Imperial Villa - two floors of Asiatic chic paired with a spacious terrace featuring poolside views across the greenery of Costa Adeje Golf, the distant mountains and the sparkling Atlantic Ocean.",
+    "medias": [
+      {
+        "mediaId": 62,
+        "mediaName": "imperial-villa-0"
+      },
+      {
+        "mediaId": 63,
+        "mediaName": "imperial-villa-1"
+      },
+      {
+        "mediaId": 64,
+        "mediaName": "imperial-villa-2"
+      },
+      {
+        "mediaId": 65,
+        "mediaName": "imperial-villa-3"
+      },
+      {
+        "mediaId": 66,
+        "mediaName": "imperial-villa-4"
+      },
+      {
+        "mediaId": 67,
+        "mediaName": "imperial-villa-5"
+      },
+      {
+        "mediaId": 69,
+        "mediaName": "imperial-villa-6"
+      },
+      {
+        "mediaId": 70,
+        "mediaName": "imperial-villa-8"
+      },
+      {
+        "mediaId": 71,
+        "mediaName": "imperial-villa-9"
+      },
+      {
+        "mediaId": 81,
+        "mediaName": "imperial-villa-7"
+      }
+    ]
+  },
+  {
+    "villaId": 11,
+    "villaName": "Queen Villa Pavillon",
+    "villaPath": "queen-villa-pavilion",
+    "numberOfBeds": 3,
+    "surfaceArea": 400,
+    "priceOnline": 2000,
+    "priceOnSite": 2050,
+    "description": "Luxuriate in the extra space of this glamorous sanctuary of seclusion. Two bedrooms offer the ultimate in plush comfort, while a third, detached bedroom provides additional comfort and independence. An ornate, heated pool and a Balinese bed sustain the serene bliss on the ocean-view terrace.",
+    "medias": [
+      {
+        "mediaId": 1,
+        "mediaName": "queen-villa-pavilion-9"
+      },
+      {
+        "mediaId": 72,
+        "mediaName": "queen-villa-pavilion-0"
+      },
+      {
+        "mediaId": 73,
+        "mediaName": "queen-villa-pavilion-1"
+      },
+      {
+        "mediaId": 74,
+        "mediaName": "queen-villa-pavilion-2"
+      },
+      {
+        "mediaId": 75,
+        "mediaName": "queen-villa-pavilion-3"
+      },
+      {
+        "mediaId": 76,
+        "mediaName": "queen-villa-pavilion-4"
+      },
+      {
+        "mediaId": 77,
+        "mediaName": "queen-villa-pavilion-5"
+      },
+      {
+        "mediaId": 78,
+        "mediaName": "queen-villa-pavilion-6"
+      },
+      {
+        "mediaId": 79,
+        "mediaName": "queen-villa-pavilion-7"
+      },
+      {
+        "mediaId": 80,
+        "mediaName": "queen-villa-pavilion-8"
+      }
+    ]
+  }
+]
